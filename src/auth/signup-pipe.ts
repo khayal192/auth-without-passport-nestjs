@@ -4,7 +4,7 @@ import {
   Injectable,
   PipeTransform,
 } from '@nestjs/common';
-import { SignupDto } from './signup.dto';
+import { SignupDto } from './dto/signup.dto';
 
 @Injectable()
 export class SignupPipe implements PipeTransform {
